@@ -1,0 +1,26 @@
+
+.logo {
+    background: url("../assets/images/logo(1280x570).png");
+    height: 100px;
+    width: 225px;
+    background-size: 100% 100%;
+}
+
+#navbar {
+    
+    padding-top: 50px;
+    padding-left: 15%;
+}
+
+li {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    font-size: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;
+    border-color: rgba(0,0,0,0)
+}
+
+li:hover {
+    border-color: rgb(0,0,128);
+}
