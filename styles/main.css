@@ -21,6 +21,44 @@ li {
     border-color: rgba(0,0,0,0)
 }
 
-li:hover {
+.active-nav, li:hover {
     border-color: rgb(0,0,128);
 }
+
+/*FOOTER CSS*/
+/*------------------*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+}
+.footer {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  /*line-height: 100px;*/
+  background-color: rgba(0,0,50,.9);
+}
+
+.top-footer {
+    text-align: center;   
+    margin-top: 35px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 0px 2px 0px;
+}
+
+.top-footer > a {
+    text-decoration: none;
+    color: white;
+}
+
