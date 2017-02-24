@@ -6,10 +6,17 @@
     background-size: 100% 100%;
 }
 
-#navbar {
-    
+#nav-buttons {
     padding-top: 50px;
     padding-left: 15%;
+}
+
+#nav-container {
+    background-color: white;
+    border-color: white;
+    min-width: 800px;
+    padding-top: 20px;
+    margin-bottom: 0px;
 }
 
 li {
@@ -30,6 +37,7 @@ li {
 html {
   position: relative;
   min-height: 100%;
+  min-width: 1000px;
 }
 body {
   /* Margin bottom by footer height */
@@ -54,11 +62,10 @@ body {
     font-size: 20px;
     border-style: solid;
     border-color: white;
-    border-width: 0px 0px 2px 0px;
+    border-width: 0px 0px 1px 0px;
 }
 
 .top-footer > a {
     text-decoration: none;
     color: white;
 }
-
