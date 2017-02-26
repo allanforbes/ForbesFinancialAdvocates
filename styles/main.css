@@ -47,12 +47,18 @@ body {
         display: none;
     }
     
-    .logo {
-        margin-left: 20%;
+    #nav-container {
+        background: url("../assets/images/logo(1280x570).png");
+        height: 100px;
+        width: 225px;
+        background-size: 100% 100%;
     }
     
     #dropdown-btn {
         display: inherit;
+        position: absolute;
+        right: 0px;
+        
     }
 }
 
