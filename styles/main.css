@@ -1,3 +1,11 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  margin-bottom: 100px;
+}
 
 .logo {
     background: url("../assets/images/logo(1280x570).png");
@@ -11,38 +19,43 @@
     padding-left: 15%;
 }
 
-#nav-container {
+.navbar-default {
     background-color: white;
     border-color: white;
-    min-width: 800px;
     padding-top: 20px;
     margin-bottom: 0px;
 }
 
-li {
-    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+.nav-button {
     font-size: 20px;
     margin-right: 20px;
     border-style: solid;
     border-width: 0px 0px 5px 0px;
-    border-color: rgba(0,0,0,0)
+    border-color: rgba(0,0,0,0);
 }
 
 .active-nav, li:hover {
     border-color: rgb(0,0,128);
 }
 
-/*FOOTER CSS*/
-/*------------------*/
-html {
-  position: relative;
-  min-height: 100%;
-  min-width: 1000px;
+#dropdown-btn {
+    display: none;
 }
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 100px;
+
+@media screen and (max-width: 800px) {
+    #nav-buttons {
+        display: none;
+    }
+    
+    .logo {
+        margin-left: 20%;
+    }
+    
+    #dropdown-btn {
+        display: inherit;
+    }
 }
+
 .footer {
   color: white;
   position: absolute;

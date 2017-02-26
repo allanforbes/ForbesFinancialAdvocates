@@ -3,23 +3,39 @@
     <head>
         <title>Forbes Financial Advocates</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!--Bootstrap-->
+        <!--Bootstrap and jquery-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <!--Ionicons-->
         <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-        <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" type="text/css" href="styles/landing.css">
     </head>
     <body >
         <div class="container">
-            <nav class="navbar navbar-default" id="nav-container">
+            
+            <nav class="navbar navbar-default">
+  
+                <div class="dropdown pull-right">
+                    <button class="btn btn-default dropdown-toggle" id="dropdown-btn" type="button" data-toggle="dropdown">
+                        <span class="ion-navicon-round"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
                 <a href="index.html"><div class="logo pull-left"></div></a>
                 <ul class="nav navbar-nav xd" id="nav-buttons">
-                    <li class="active-nav"><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li class="active-nav nav-button"><a href="index.html">Home</a></li>
+                    <li class="nav-button"><a href="about.html">About</a></li>
+                    <li class="nav-button"><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
+            
+            
+            
         </div>
         <div class="splash">
             <div class="container">
@@ -43,29 +59,29 @@
             <div class="container">
                 <h3 style="text-align: center;">Products and Services</h3>
                 <div class="row" id="productsRow">
-                    <div class="col-md-4 product">
+                    <div class="col-sm-4 product">
                         <h4><span class="ion-person-stalker prod-icon"></span> Retirement Solutions</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
-                    <div class="col-md-4 product">
+                    <div class="col-sm-4 product">
                         <h4><span class="ion-university prod-icon"></span> College Saving Plans</h4>
                         <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
-                    <div class="col-md-4 product">
+                    <div class="col-sm-4 product">
                         <h4><span class="ion-cash prod-icon"></span> Annuities</h4>
                         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                     </div>
                 </div>
                 <div class="row" id="servicesRow">
-                    <div class="col-md-4 product">
+                    <div class="col-sm-4 product">
                         <h4><span class="ion-pie-graph prod-icon"></span> Asset Allocation Strategies</h4>
                         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
-                    <div class="col-md-4 product">
+                    <div class="col-sm-4 product">
                         <h4><span class="ion-ios-home prod-icon"></span> Legacy/Estate Planning</h4>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                     </div>
-                    <div class="col-md-4 product">
+                    <div class="col-sm-4 product">
                         <h4><span class="ion-umbrella prod-icon"></span> Insurance Needs Analysis</h4>
                         <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
                     </div>
@@ -74,78 +90,78 @@
                 <div class="partner-section">
                     <h3 style="text-align: center; margin-bottom: 20px;">Business Partners</h3>
                     <div class="row">
-                        <div class="col-md-2"></div>
-                        <div class="col-md-2">
+                        <div class="col-xs-2"></div>
+                        <div class="col-xs-2">
                             <a href="#"><img style="width: 100%;" src="assets/images/partners/franklin.png"></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-xs-2">
                             <a href="#"><img style="width: 100%;" src="assets/images/partners/dreyfus.png"></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-xs-2">
                             <a href="#"><img style="width: 100%; margin-top: 10%;" src="assets/images/partners/prudential.png"></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-xs-2">
                             <a href="#"><img style="width: 50%; margin-left: 20%;" src="assets/images/partners/invesco.png"></a>
                         </div>
-                        <div class="col-md-2"></div>
+                        <div class="col-xs-2"></div>
                     </div>
                     <div class="row">
-                        <div class="col-md-2"></div>
-                        <div class="col-md-2">
+                        <div class="col-xs-2"></div>
+                        <div class="col-xs-2">
                             <a href="#"><img style="width: 100%; margin-top: 5%;" src="assets/images/partners/wells.jpg"></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-xs-2">
                             <a href="#"><img style="width: 100%; margin-top: 10%;" src="assets/images/partners/john_hancock.png"></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-xs-2">
                             <a href="#"><img style="width: 100%;" src="assets/images/partners/oppenheimer-funds.png"></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-xs-2">
                             <a href="#"><img style="width: 100%; margin-top: 5%;" src="assets/images/partners/ColumbiaManagement.jpg"></a>
                         </div>
-                        <div class="col-md-2"></div>
+                        <div class="col-xs-2"></div>
                     </div>
                     <div class="row">
-                        <div class="col-md-2"></div>
-                        <div class="col-md-2">
+                        <div class="col-xs-2"></div>
+                        <div class="col-xs-2">
                             <a href="#"><img style="width: 100%; margin-top: 15%;" src="assets/images/partners/americanfunds.jpg"></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-xs-2">
                             <a href="#"><img style="width: 100%; margin-top: 15%;" src="assets/images/partners/ing.png"></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-xs-2">
                             <a href="#"><img style="width: 100%; margin-top: 10%;" src="assets/images/partners/mfs.png"></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-xs-2">
                             <a href="#"><img style="width: 100%; margin-top: 20%;" src="assets/images/partners/neuberger.png"></a>
                         </div>
-                        <div class="col-md-2"></div>
+                        <div class="col-xs-2"></div>
                     </div>
                     <div class="row">
-                        <div class="col-md-2"></div>
-                        <div class="col-md-2">
+                        <div class="col-xs-2"></div>
+                        <div class="col-xs-2">
                             <a href="#"><img style="width: 80%; margin-left: 10%;" src="assets/images/partners/Intrepid-Capital-Funds-600x321.png"></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-xs-2">
                             <a href="#"><img style="width: 100%; margin-top: 15%;" src="assets/images/partners/Allianz.png"></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-xs-2">
                             <a href="#"><img style="width: 100%; margin-top: 5%;" src="assets/images/partners/waddellreed.png"></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-xs-2">
                             <a href="#"><img style="width: 100%; margin-top: 15%;" src="assets/images/partners/putnam.jpg"></a>
                         </div>
-                        <div class="col-md-2"></div>
+                        <div class="col-xs-2"></div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4"></div>
-                        <div class="col-md-2">
+                        <div class="col-xs-4"></div>
+                        <div class="col-xs-2">
                             <a href="#"><img style="width: 100%;" src="assets/images/partners/first-investors.jpg"></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-xs-2">
                             <a href="#"><img style="width: 100%;" src="assets/images/partners/pacificlife.png"></a>
                         </div>
-                        <div class="col-md-4"></div>
+                        <div class="col-xs-4"></div>
                     </div>
                 </div>
                 
@@ -160,12 +176,12 @@
             <div class="container sub-footer">
                 <div class="container">
                     <span class="pull-left">Forbes Financial Advocates, LLC</span>
-                    <span class="pull-right" style="padding-right: 25px;">Created By Allan Forbes <a href="https://github.com/allanforbes/ForbesFinancialAdvocates" target="_blank"><span class="ion-social-github" style="color: white;"></span></a> <a href="https://www.linkedin.com/in/allanbforbes/" target="_blank"><span class="ion-social-linkedin" style="color: white;></span></a></span>
+                    <span class="pull-right" style="padding-right: 25px;">Created By Allan Forbes <a href="https://github.com/allanforbes/ForbesFinancialAdvocates" target="_blank"><span class="ion-social-github" style="color: white;"></span></a> <a href="https://www.linkedin.com/in/allanbforbes/" target="_blank"><span class="ion-social-linkedin" style="color: white;"></span></a></span>
                 </div>  
             </div>
         </footer>
         
-        
-        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </body>
 </html>
