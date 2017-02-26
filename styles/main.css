@@ -42,26 +42,6 @@ body {
     display: none;
 }
 
-@media screen and (max-width: 800px) {
-    #nav-buttons {
-        display: none;
-    }
-    
-    #nav-container {
-        background: url("../assets/images/logo(1280x570).png");
-        height: 100px;
-        width: 225px;
-        background-size: 100% 100%;
-    }
-    
-    #dropdown-btn {
-        display: inherit;
-        position: absolute;
-        right: 0px;
-        
-    }
-}
-
 .footer {
   color: white;
   position: absolute;
@@ -87,4 +67,30 @@ body {
 .top-footer > a {
     text-decoration: none;
     color: white;
+}
+
+@media screen and (max-width: 800px) {
+    #nav-buttons {
+        display: none;
+    }
+    
+    #nav-container {
+        background: url("../assets/images/logo(1280x570).png");
+        height: 100px;
+        width: 225px;
+        background-size: 100% 100%;
+    }
+    
+    #dropdown-btn {
+        display: inherit;
+        position: absolute;
+        right: 0px;
+        
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .bl-footer-text {
+        display: none;
+    }
 }
