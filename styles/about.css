@@ -52,6 +52,9 @@ padding: 20px;
     padding-bottom: 10px;
 }
 
+#partner-section {
+    margin-bottom: 10px;
+}
 @media screen and (max-width: 500px) {
     .splash {
         background-size: auto 100%;
