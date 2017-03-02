@@ -1,10 +1,12 @@
 html {
+/*
   position: relative;
   min-height: 100%;
+*/
 }
 body {
   font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
-  margin-bottom: 100px;
+/*  margin-bottom: 100px;*/
 }
 
 .logo {
@@ -15,8 +17,7 @@ body {
 }
 
 #nav-buttons {
-    padding-top: 50px;
-    padding-left: 15%;
+    padding-top: 30px;
 }
 
 .navbar-default {
@@ -44,29 +45,30 @@ body {
 
 .footer {
   color: white;
-  position: absolute;
-  bottom: 0;
   width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 100px;
-  /*line-height: 100px;*/
   background-color: rgba(0,0,50,.9);
 }
 
-.top-footer {
-    text-align: center;   
-    margin-top: 35px;
-    margin-bottom: 5px;
-    padding-bottom: 10px;
-    font-size: 20px;
-    border-style: solid;
-    border-color: white;
-    border-width: 0px 0px 1px 0px;
-}
-
-.top-footer > a {
+#footer-1 > a {
     text-decoration: none;
     color: white;
+    font-size: 20px;
+}
+
+#footer-2 {
+    text-align: right;
+}
+
+#footer-4 {
+    text-align: right;
+}
+
+#footer-border {
+    border-width: 1px 0px 0px 0px;
+    border-color: white;
+    border-style: solid;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 @media screen and (max-width: 800px) {
@@ -86,6 +88,14 @@ body {
         position: absolute;
         right: 0px;
         
+    }
+    
+    #footer-1, #footer-2, #footer-3, #footer-4 {
+        text-align: center;
+    }
+    
+    #footer-4 {
+        text-align: center;
     }
 }
 
