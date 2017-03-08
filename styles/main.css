@@ -41,6 +41,11 @@ body {
 
 #dropdown-btn {
     display: none;
+    position: absolute;
+    right: 0px;
+    
+    padding: 3px 9px 3px 9px;
+    font-size: 125%;
 }
 
 .section-title {
@@ -95,10 +100,7 @@ body {
     }
     
     #dropdown-btn {
-        display: inherit;
-        position: absolute;
-        right: 0px;
-        
+        display: inherit;        
     }
     
     #footer-1, #footer-2, #footer-3, #footer-4 {
