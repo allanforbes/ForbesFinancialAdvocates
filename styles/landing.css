@@ -37,6 +37,9 @@
     font-size: 20px;
 }
 
+#other-providers {
+}
+
 @media screen and (max-width: 800px) {
     .splash-blurb {
         width: 75%;
